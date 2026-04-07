@@ -1,163 +1,38 @@
+# Docker Projects
 
-# Мои Docker-проекты
+Мои проекты по контейнеризации приложений с помощью Docker
 
-Этот репозиторий содержит мои работы по изучению Docker. Здесь собраны отчеты о запуске различных сервисов в контейнерах с пошаговыми инструкциями и скриншотами.
+## 📋 Список проектов
 
----
+| № | Проект | Папка |
+|---|--------|-------|
+| 1 | Статический сайт на веб-сервере Nginx | [my-website](./my-website/README.md) |
+| 2 | Простое приложение на Python | [my-python-app](./my-python-app/README.md) |
+| 3 | Flask + Python (мини-проект) | [TASKS/task_01_flask](./TASKS/task_01_flask/README.md) |
+| 4 | Приложение на C# (.NET) с публикацией | [TASKS/task_02_csharp](./TASKS/task_02_csharp/README.md) |
+| 5 | Консольное приложение на C++ | [TASKS/task_03_cpp](./TASKS/task_03_cpp/README.md) |
+| 6 | Консольное приложение на C++ и FTXUI | [TASKS/task_04_ftxui](./TASKS/task_04_ftxui/README.md) |
+| 7 | Wow - консольное псевдографическое приложение на C++ и FTXUI | [TASKS/task_05_wow_ftxui](./TASKS/task_05_wow_ftxui/README.md) |
+| 8 | Оконное приложение на C++ и FLTK | [TASKS/task_06_fltk](./TASKS/task_06_fltk/README.md) |
+| 9 | Приложение на Rust | [TASKS/task_07_rust](./TASKS/task_07_rust/README.md) |
+| 10 | Приложение на Ruby | [TASKS/task_08_ruby](./TASKS/task_08_ruby/README.md) |
+| 11 | Приложение на PHP | [TASKS/task_09_php](./TASKS/task_09_php/README.md) |
+| 12 | Node.JS | [TASKS/task_10_node](./TASKS/task_10_node/README.md) |
+| 13 | Приложение на TypeScript | [TASKS/task_11_typescript](./TASKS/task_11_typescript/README.md) |
+| 14 | Pascal | [TASKS/task_12_pascal](./TASKS/task_12_pascal/README.md) |
+| 15 | Java | [TASKS/task_13_java](./TASKS/task_13_java/README.md) |
+| 16 | Qt5/C++ | [TASKS/task_14_qt5](./TASKS/task_14_qt5/README.md) |
+| 17 | Qt6/C++ | [TASKS/task_15_qt6](./TASKS/task_15_qt6/README.md) |
 
-## 📋 Выполненные задания
+## 🛠 Технологии
 
-| № | Задание | Описание | Отчет |
-|---|---------|----------|-------|
-| 1 | **Apache HTTP Server** | Запуск веб-сервера Apache в Docker, проброс портов, монтирование локальной папки с сайтом | [Apache.md](myNotes/Apache.md) |
+- Docker
+- WSL2 / Ubuntu
+- GitHub
 
----
+## 📸 Скриншоты
 
-## 🐳 Демонстрация работы Apache
-
-### Контейнер запущен и работает
-
-```bash
-docker ps
-```
-
-![docker ps](screenshots/docker-ps.png)
-
----
-
-### Страница Apache по умолчанию
-
-При первом запуске открывается стандартная страница "It works!":
-
-![Apache default](screenshots/apache-default.png)
-
----
-
-### Кастомная страница после монтирования
-
-После подключения локальной папки с собственным `index.html` страница изменилась:
-
-![Apache custom](screenshots/apache-custom.png)
+Каждый проект содержит скриншоты работы приложения.
 
 ---
-
-## 📁 Структура репозитория
-
-```
-docker-projects/
-│
-├── myNotes/                    # Папка с отчетами
-│   └── Apache.md               # Отчет по Apache
-│
-├── screenshots/                # Папка со скриншотами
-│   ├── docker-ps.png           # Скриншот docker ps
-│   ├── apache-default.png      # Стандартная страница Apache
-│   └── apache-custom.png       # Кастомная страница
-│
-├── website/                    # Папка с веб-сайтом
-│   └── index.html              # Главная страница сайта
-│
-└── README.md                   # Этот файл
-```
-
----
-
-## 🚀 Как запустить Apache (инструкция)
-
-### 1. Запуск контейнера
-
-```bash
-docker run -d --name my-apache -p 8080:80 httpd:latest
-```
-
-### 2. Проверка, что контейнер работает
-
-```bash
-docker ps
-```
-
-### 3. Открыть в браузере
-
-```
-http://localhost:8080
-```
-
-### 4. Остановка и удаление контейнера
-
-```bash
-docker stop my-apache
-docker rm my-apache
-```
-
-### 5. Запуск с монтированием локальной папки (для своего сайта)
-
-```bash
-docker run -d --name my-apache -p 8080:80 -v C:\Users\Evg65\Desktop\docker-projects\website:/usr/local/apache2/htdocs/ httpd:latest
-```
-
----
-
-## 📝 Содержимое кастомной страницы (`website/index.html`)
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Мой сайт на Docker</title>
-</head>
-<body>
-    <h1>Мой сайт на Apache в Docker</h1>
-    <p>Это моя первая страница, работающая в контейнере</p>
-    <hr>
-    <small>Работает на Apache в Docker</small>
-</body>
-</html>
-```
-
----
-
-## 🔧 Полезные команды Docker
-
-| Команда | Описание |
-|---------|----------|
-| `docker ps` | Показать запущенные контейнеры |
-| `docker ps -a` | Показать все контейнеры (включая остановленные) |
-| `docker stop <name>` | Остановить контейнер |
-| `docker start <name>` | Запустить остановленный контейнер |
-| `docker rm <name>` | Удалить контейнер |
-| `docker rm -f <name>` | Принудительно удалить контейнер |
-| `docker logs <name>` | Посмотреть логи контейнера |
-| `docker exec -it <name> bash` | Зайти внутрь контейнера |
-| `docker exec <name> ls /usr/local/apache2/htdocs/` | Проверить файлы в контейнере |
-
----
-
-## 📊 Вывод
-
-Я успешно:
-- ✅ Установил и запустил Docker
-- ✅ Запустил контейнер с Apache HTTP Server
-- ✅ Настроил проброс портов (8080 → 80)
-- ✅ Создал собственную веб-страницу
-- ✅ Примонтировал локальную папку к контейнеру
-- ✅ Оформил отчет с пошаговой инструкцией и скриншотами
-- ✅ Выложил всё в GitHub
-
-Docker позволяет быстро разворачивать сервисы без установки на основную систему.
-
----
-
-*Репозиторий обновляется по мере выполнения новых заданий.*
-```
-
----
-
-Этот README.md теперь содержит:
-- Все скриншоты с правильными ссылками
-- Полную инструкцию по запуску
-- Содержимое кастомной страницы
-- Таблицу полезных команд
-- Вывод о проделанной работе
-
-Копируйте этот код в файл `README.md` в корне вашего репозитория и сохраняйте.
+*Выполнил: Евгений*
