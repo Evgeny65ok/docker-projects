@@ -30,7 +30,8 @@ docker rm my-node-app
 ```
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+<img width="360" height="165" alt="image" src="https://github.com/user-attachments/assets/a5293211-1746-41a8-845d-ed2c26e9d0d6" />
+
 
 ---
 *Выполнено: Евгений*
