@@ -27,7 +27,8 @@ docker run -it --rm --entrypoint sh rust-app
 ```
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+<img width="741" height="69" alt="image" src="https://github.com/user-attachments/assets/dd9e81f9-d1fd-4ea7-bf68-96b64eb86495" />
+
 
 ---
 *Выполнено: Евгений*
