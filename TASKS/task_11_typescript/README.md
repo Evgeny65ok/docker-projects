@@ -22,7 +22,8 @@ docker run -it --rm my-ts-app
 ```
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+<img width="778" height="123" alt="image" src="https://github.com/user-attachments/assets/6413a154-9e49-4df0-bcfe-d35ec9c8a466" />
+
 
 ---
 *Выполнено: Евгений*
