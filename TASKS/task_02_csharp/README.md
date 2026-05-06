@@ -24,7 +24,8 @@ docker run -d --name my-dotnet-container -p 8081:80 my-dotnet-app
 Открыть в браузере: http://localhost:8081
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+<img width="360" height="162" alt="image" src="https://github.com/user-attachments/assets/29e62249-2d5e-48fc-9337-a94746ba15f8" />
+
 
 ---
 *Выполнено: Евгений*
