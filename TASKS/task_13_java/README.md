@@ -21,7 +21,9 @@ docker run --rm my-java-app
 ```
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+
+<img width="765" height="180" alt="image" src="https://github.com/user-attachments/assets/6d886347-3a7f-40cc-bd8e-c374d29dd207" />
+
 
 ---
 *Выполнено: Евгений*
