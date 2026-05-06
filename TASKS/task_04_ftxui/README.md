@@ -26,7 +26,8 @@ docker run -it --entrypoint bash ftxui-demo
 ```
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+<img width="857" height="224" alt="image" src="https://github.com/user-attachments/assets/dac73abf-5338-4573-8402-611ebf35644b" />
+
 
 ---
 *Выполнено: Евгений*
