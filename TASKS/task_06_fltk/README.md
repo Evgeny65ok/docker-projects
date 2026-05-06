@@ -30,7 +30,8 @@ docker run -it --entrypoint bash fltk-demo
 ```
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+<img width="365" height="463" alt="image" src="https://github.com/user-attachments/assets/e4362b26-c5a2-484e-8291-deb67745e566" />
+
 
 ---
 *Выполнено: Евгений*
