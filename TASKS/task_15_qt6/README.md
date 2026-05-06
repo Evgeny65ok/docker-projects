@@ -24,7 +24,8 @@ docker run -it --rm \
 ```
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+<img width="349" height="121" alt="image" src="https://github.com/user-attachments/assets/67dec1f7-d1d2-40ec-ae4e-df517286034d" />
+
 
 ---
 *Выполнено: Евгений*
