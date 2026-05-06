@@ -29,7 +29,8 @@ docker rm my-php-app
 ```
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+<img width="994" height="240" alt="image" src="https://github.com/user-attachments/assets/66bac243-ad12-4852-9288-816e66597f40" />
+
 
 ---
 *Выполнено: Евгений*
