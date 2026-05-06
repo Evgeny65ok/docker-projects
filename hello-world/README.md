@@ -21,7 +21,9 @@ docker run --rm hello-world
 ```
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+
+<img width="755" height="186" alt="image" src="https://github.com/user-attachments/assets/1ad3455f-444b-403f-a4ae-4200cc37083b" />
+
 
 ---
 *Выполнено: Евгений*
