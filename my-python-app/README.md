@@ -16,7 +16,8 @@ docker run --rm my-python-app
 ```
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+<img width="763" height="71" alt="image" src="https://github.com/user-attachments/assets/ac580843-eba3-4c7c-ba7f-97761e52b498" />
+
 
 ---
 *Выполнено: Евгений*
