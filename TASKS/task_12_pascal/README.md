@@ -20,7 +20,8 @@ docker run --rm pascal-app
 ```
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+<img width="793" height="128" alt="image" src="https://github.com/user-attachments/assets/48e1bbbb-d927-4cea-8d8a-5aa22829cf62" />
+
 
 ---
 *Выполнено: Евгений*
