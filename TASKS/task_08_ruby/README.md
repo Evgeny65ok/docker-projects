@@ -21,7 +21,8 @@ docker run -it --rm ruby-app
 ```
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+<img width="950" height="171" alt="image" src="https://github.com/user-attachments/assets/511f81f6-9f17-4912-b383-1225c49197da" />
+
 
 ---
 *Выполнено: Евгений*
