@@ -25,7 +25,8 @@ docker run -it --entrypoint sh cpp-hello
 ```
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+<img width="668" height="179" alt="image" src="https://github.com/user-attachments/assets/e61ac424-f7d1-4d29-af7a-d21f4b3ebd65" />
+
 
 ---
 *Выполнено: Евгений*
