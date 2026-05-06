@@ -26,7 +26,9 @@ docker run -it --entrypoint bash ftxui-wow
 ```
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+
+<img width="994" height="248" alt="image" src="https://github.com/user-attachments/assets/918a6049-8ebf-46d3-8256-23ed44c991db" />
+
 
 ---
 *Выполнено: Евгений*
