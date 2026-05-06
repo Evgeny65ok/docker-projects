@@ -23,7 +23,7 @@ chmod +x run.sh
 ```
 
 ## Скриншот
-![Результат](./screenshots/result.png)
+<img width="397" height="227" alt="image" src="https://github.com/user-attachments/assets/ef97be5f-b6df-4ec0-931a-a5ea809cf653" />
 
 ---
 *Выполнено: Евгений*
